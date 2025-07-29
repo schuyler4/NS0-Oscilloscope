@@ -12,8 +12,8 @@ software [voltpeek](https://github.com/schuyler4/voltpeek) provides a UI and Pyt
 ## Triggering
 Currently, only auto trigger is supported. The waveform is continually captured and displayed without a trigger event.      
 ## Getting Started
-1) Download the NS0.uf2 firmware file from the releases section of this repository.
-2) Hold down the bootselect button on your Pico while plugging it in. The Pico should mount as a USB device.
+1) Download the NS0.uf2 firmware file from the latest release of this repository.
+2) Hold down the bootsel button on your Pico while plugging it in. The Pico should mount as a USB device.
 3) Open up the Pico USB device and transfer the firmware file into it.
-4) You should now be ready to go. See the [voltpeek readme](https://github.com/schuyler4/voltpeek) to get started with voltpeek to 
+4) You should now be ready to go. See the [voltpeek readme](https://github.com/schuyler4/voltpeek) to get started with voltpeek and 
 capture and display some waveforms.

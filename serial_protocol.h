@@ -1,0 +1,25 @@
+#ifndef SERIAL_PROTOCOL
+#define SERIAL_PROTOCOL
+
+#define START_COMMAND "START\n"
+#define END_COMMAND "END\n"
+
+#define SPECS_COMMAND 's'
+#define TRIGGER_COMMAND 't'
+#define ENABLE_SIGNAL_TRIGGER 'I'
+#define DISABLE_SIGNAL_TRIGGER 'i'
+#define FORCE_TRIGGER_COMMAND 'f'
+#define LOW_RANGE_COMMAND 'r'
+#define HIGH_RANGE_COMMAND 'R'
+#define TRIGGER_LEVEL_COMMAND 'l'
+#define CLOCK_DIV_COMMAND 'c'
+#define RISING_EDGE_TRIGGER_COMMAND '/'
+#define FALLING_EDGE_TRIGGER_COMMAND '\\'
+#define SET_CAL 'C'
+#define READ_CAL 'k'
+#define AMPLIFIER_GAIN 'A'
+#define AMPLIFIER_UNITY 'a'
+#define RECORD_SAMPLE 'o'
+#define START_RECORD 'O'
+
+#endif

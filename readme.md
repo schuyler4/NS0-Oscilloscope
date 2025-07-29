@@ -1,5 +1,6 @@
 # NS0 Oscilloscope
-This is firmware to turn your RPi Pico into a very rudimentary, single channel, 500kS/s oscilloscope.
+This is firmware to turn your RPi Pico into a very rudimentary, single channel, 500kS/s oscilloscope. For a more capable scope, see the [NS1]
+(https://hackaday.io/project/197104-ns1-oscilloscope).
 ## I/O
 The signal input uses the A0 analog channel on pin 31 with respect to boards ground. With no analog front end, the input voltage can only be
 between 0 and 3.3V. Also, when the input is left floating, the voltage that is read by the oscilloscope will not appear to be zero. In addition 
